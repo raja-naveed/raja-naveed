@@ -1,5 +1,5 @@
-# 💫 About Me:
-I am a undegraduate student of Software Engineering<br>I am currently learning React Js <br>I want to be a Full Stack Developer<br>My Programming Skills are HTML, CSS, JavaSCript
+Web Developer & Graphic Designer Seeking Opportunities to Utilize Skills in React JS and Enhance Online Presence
+
 
 
 ## 🌐 Socials:
