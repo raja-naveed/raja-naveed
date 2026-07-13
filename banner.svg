@@ -1,0 +1,52 @@
+<svg width="100%" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Animated banner for Raja Naveed</title>
+<desc>Dark banner with animated gradient name, moving grid, and floating particles</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#06061a"/>
+<stop offset="0.55" stop-color="#0d0b2e"/>
+<stop offset="1" stop-color="#06061a"/>
+</linearGradient>
+<linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#7c3aed"/>
+<stop offset="0.5" stop-color="#06b6d4"/>
+<stop offset="1" stop-color="#7c3aed"/>
+<animate attributeName="x1" values="-1;0;1" dur="6s" repeatCount="indefinite"/>
+<animate attributeName="x2" values="0;1;2" dur="6s" repeatCount="indefinite"/>
+</linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#5b0eeb" stop-opacity="0.55"/>
+<stop offset="1" stop-color="#5b0eeb" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="800" height="260" rx="16" fill="url(#bg)"/>
+<circle cx="400" cy="120" r="220" fill="url(#halo)">
+<animate attributeName="r" values="200;240;200" dur="5s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.5;0.9;0.5" dur="5s" repeatCount="indefinite"/>
+</circle>
+<g stroke="#5b0eeb" stroke-opacity="0.14" stroke-width="1">
+<line x1="0" y1="52" x2="800" y2="52"/><line x1="0" y1="104" x2="800" y2="104"/>
+<line x1="0" y1="156" x2="800" y2="156"/><line x1="0" y1="208" x2="800" y2="208"/>
+<g><line x1="100" y1="0" x2="100" y2="260"/><line x1="200" y1="0" x2="200" y2="260"/>
+<line x1="300" y1="0" x2="300" y2="260"/><line x1="400" y1="0" x2="400" y2="260"/>
+<line x1="500" y1="0" x2="500" y2="260"/><line x1="600" y1="0" x2="600" y2="260"/>
+<line x1="700" y1="0" x2="700" y2="260"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;100 0" dur="8s" repeatCount="indefinite"/></g>
+</g>
+<g fill="#06b6d4">
+<circle cx="120" cy="200" r="3"><animate attributeName="cy" values="200;60;200" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="680" cy="80" r="2.5" fill="#7c3aed"><animate attributeName="cy" values="80;210;80" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" repeatCount="indefinite"/></circle>
+<circle cx="240" cy="60" r="2"><animate attributeName="cy" values="60;190;60" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="560" cy="220" r="3" fill="#7c3aed"><animate attributeName="cy" values="220;70;220" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" repeatCount="indefinite"/></circle>
+</g>
+<text x="400" y="118" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="62" font-weight="800" fill="url(#name)" letter-spacing="1">RAJA NAVEED
+<animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/></text>
+<text x="400" y="158" text-anchor="middle" font-family="'Courier New',monospace" font-size="18" font-weight="600" fill="#c4b5fd" letter-spacing="3">&lt; Full-Stack Developer /&gt;
+<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4;1" dur="2s" fill="freeze"/></text>
+<g>
+<rect x="330" y="185" width="140" height="2" fill="#06b6d4" opacity="0.8"/>
+<rect x="330" y="185" width="30" height="2" fill="#ffffff">
+<animate attributeName="x" values="330;440;330" dur="3s" repeatCount="indefinite"/></rect>
+</g>
+<text x="400" y="222" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#6d5b9e" letter-spacing="2">building the future, one commit at a time</text>
+</svg>
